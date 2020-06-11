@@ -11,6 +11,6 @@ No data ownership is presumed based on the sharing of this data.
 
 + [metadata.csv](https://raw.githubusercontent.com/philshem/gmaps_zurich_covid19_mobility_scrape/master/metadata.csv) = listing of places being scraped. this can be joined to the timeseries below on the column "url" 
 
-+ [all_current.csv](https://raw.githubusercontent.com/philshem/gmaps_zurich_covid19_mobility_scrape/master/all_current.csv) = only places with "current" and "normal" values
++ [all_current.csv](https://raw.githubusercontent.com/philshem/gmaps_zurich_covid19_mobility_scrape/master/all_current.csv) = only places with "current" and "normal" values (3.45 MB uncompressed)
 
 + all.csv --> [all.csv.tar.gz](https://github.com/philshem/gmaps_zurich_covid19_mobility_scrape/blob/master/all.csv.tar.gz?raw=true) = full scrape data (72.8 MB compressed, 1.39 GB uncompressed)
