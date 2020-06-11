@@ -1,14 +1,16 @@
-# gmaps_zurich_covid19_mobility_scrape
+# gmaps zurich covid19 mobility scrape
 
-This is a repository of CSV files based on the GMaps scraping job that ran from 2020.03.18 to 2020.06.11.
-The source of the scraping code is here: https://github.com/philshem/gmaps_popular_times_scraper/
+This data was collected during the lockdown in Switzerland during the first wave of the COVID-19 pandemic.
+The repository contains CSV files based on the GMaps scraping job that ran from 2020.03.18 to 2020.06.11.
 
+The source code of the scraping job is here: https://github.com/philshem/gmaps_popular_times_scraper/
 
-Data is saved here for research purposes.
+Data is archived here for research purposes.
 No data ownership is presumed based on the sharing of this data.
 
-+ metadata.csv = listing of places being scraped
 
-+ all_current.csv = only places with "current" and "normal" values
++ [metadata.csv](https://raw.githubusercontent.com/philshem/gmaps_zurich_covid19_mobility_scrape/master/metadata.csv) = listing of places being scraped. this can be joined to the timeseries below on the column "url" 
 
-+ all.csv --> all.csv.tar.gz = full scrape data
++ [all_current.csv](https://raw.githubusercontent.com/philshem/gmaps_zurich_covid19_mobility_scrape/master/all_current.csv) = only places with "current" and "normal" values
+
++ all.csv --> [all.csv.tar.gz](https://github.com/philshem/gmaps_zurich_covid19_mobility_scrape/blob/master/all.csv.tar.gz?raw=true) = full scrape data (72.8 MB compressed, 1.39 GB uncompressed)
